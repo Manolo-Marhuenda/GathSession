@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+header{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.nav_principal ul{
+    display: flex;
+    gap:50px;
+    list-style: none;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    
+    & li a{
+        color: #ABABAB;
+        display: inline-block;
+        &:hover{
+            color: white;
+            text-decoration-color: #DB2A6B;
+            text-underline-offset: 10px;
+            text-decoration-thickness: 5px;
+            text-size-adjust:10px;
+        }        
+        }
+}
+
+    
